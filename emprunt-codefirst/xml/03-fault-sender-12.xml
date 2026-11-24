@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<soap:Envelope
+    xmlns:soap="http://www.w3.org/2003/05/soap-envelope"
+    xmlns:ws="http://supnum.mr/bib">
+
+    <soap:Body>
+        <soap:Fault>
+
+            <soap:Code>
+                <soap:Value>soap:Sender</soap:Value>
+            </soap:Code>
+
+            <soap:Reason>
+                <soap:Text xml:lang="fr">
+                    ISBN mal formé : 978-2-10
+                </soap:Text>
+            </soap:Reason>
+
+            <soap:Detail>
+                <ws:erreur>
+                    <ws:isbn>978-2-10</ws:isbn>
+                    <ws:message>Format ISBN invalide</ws:message>
+                </ws:erreur>
+            </soap:Detail>
+
+        </soap:Fault>
+    </soap:Body>
+
+</soap:Envelope>

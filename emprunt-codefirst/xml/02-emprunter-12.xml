@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<soap:Envelope
+    xmlns:soap="http://www.w3.org/2003/05/soap-envelope"
+    xmlns:ws="http://supnum.mr/bib">
+
+    <soap:Header>
+        <ws:jeton>abc123</ws:jeton>
+    </soap:Header>
+
+    <soap:Body>
+        <ws:emprunterLivre>
+            <idAdherent>A-117</idAdherent>
+            <isbn>978-2-07-036822-8</isbn>
+        </ws:emprunterLivre>
+    </soap:Body>
+
+</soap:Envelope>
