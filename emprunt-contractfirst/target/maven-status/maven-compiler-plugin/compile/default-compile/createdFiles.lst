@@ -1,0 +1,11 @@
+mr\supnum\bib\contrat\package-info.class
+mr\supnum\bib\contrat\EmpruntType.class
+mr\supnum\bib\contrat\LivreIndisponible.class
+mr\supnum\bib\impl\Serveur.class
+mr\supnum\bib\contrat\EmprunterLivreResponse.class
+mr\supnum\bib\contrat\EmpruntPortType.class
+mr\supnum\bib\contrat\LivreIndisponibleFault.class
+mr\supnum\bib\contrat\ObjectFactory.class
+mr\supnum\bib\impl\EmpruntServiceImpl.class
+mr\supnum\bib\contrat\EmprunterLivre.class
+mr\supnum\bib\contrat\EmpruntService.class
